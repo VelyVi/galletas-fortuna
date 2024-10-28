@@ -1,10 +1,8 @@
-import Phrases from './assets/components/Phrases';
 import { useState } from 'react';
 import randomIndex from './assets/helpers/randomIndex';
 import phrases from '../src/phrases.json';
 import { bg1, bg2, bg3, bg4 } from './assets/images/';
 import './App.css';
-import changePhrase from './assets/components/Button';
 
 const images = [bg1, bg2, bg3, bg4];
 
